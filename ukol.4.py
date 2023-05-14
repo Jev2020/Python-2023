@@ -5,7 +5,7 @@ cena_jedne_zpravy = '3 Kc'
 
 cislo_uzivatele = int(input('Zadej cislo uzivatele:'))
 def vyhodnot_cislo(cislo_uzivatele):
-    if cislo_uzivatele == 9 or (cislo_uzivatele == 13 and cislo_uzivatele[:4] == predvolba):
+    if len(cislo_uzivatele) == 9 or (len(cislo_uzivatele) == 13 and cislo_uzivatele[0:4] == predvolba):
         return True
     else:
         return False
@@ -23,9 +23,9 @@ print(cena_zpravy (text_zpravy))
 
 
 
-cislo_uzivatele = int(input('Zadej cislo uzivatele:'))
+#cislo_uzivatele = int(input('Zadej cislo uzivatele:'))
 if vyhodnot_cislo(cislo_uzivatele):
-		text_zpravy = input('Zadej text zpravy:')
+		#text_zpravy = input('Zadej text zpravy:')
 		print(cena_zpravy(text_zpravy))
 else:
 		print("spatne cislo")
