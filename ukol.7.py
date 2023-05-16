@@ -19,6 +19,12 @@ class Auto:
 Peugeot= Auto("4A2 3020", "Peugeot 403 Cabrio", "47534")
 Skoda = Auto("1P3 4747", "Škoda Octavia", "41253")
 
-#znacka = input("Jakou značku si přejete půjčit? Peugeot nedo Skoda?")
-print(Peugeot.get_info())
-print(Peugeot.pujc_auto())
+znacka = input("Jakou značku si přejete půjčit? Peugeot nedo Skoda?")
+
+#print(Peugeot.get_info())
+#print(Peugeot.pujc_auto())
+
+#nebo
+
+#print(Skoda.get_info())
+#print(Skoda.pujc_auto())
