@@ -4,8 +4,8 @@ cena_jedne_zpravy = '3 Kc'
 
 
 cislo_uzivatele = int(input('Zadej cislo uzivatele:'))
-def vyhodnot_cislo(cislo_uzivatele):
-    if len(cislo_uzivatele) == 9 or (len(cislo_uzivatele) == 13 and cislo_uzivatele[0:4] == predvolba):
+def vyhodnot_cislo(cislo):
+    if len(cislo) == 9 or (len(cislo) == 13 and cislo[0:4] == predvolba):
         return True
     else:
         return False
